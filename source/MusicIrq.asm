@@ -53,6 +53,7 @@ check_space:
 	nop
 	nop
 	nop
+	nop
 	lda #%01111111  // select row 8
 	
 	sta pra 
