@@ -50,7 +50,7 @@ check_keyboard:
 	sta ddrb             
 
 check_space:
-	
+	nop
 	lda #%01111111  // select row 8
 	
 	sta pra 
