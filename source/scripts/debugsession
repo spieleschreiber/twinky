@@ -1,0 +1,6 @@
+# shell script
+
+$C64DEV/C64Debugger.app/contents/MacOS/C64Debugger -pause -unpause -pass -jmp 16384
+
+ -prg $TWINKYDEV/bin/twinky.prg 
+

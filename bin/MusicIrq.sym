@@ -1,0 +1,13 @@
+.label prb=$dc01
+.label ddra=$dc02
+.label check_space=$404c
+.label music_init=$1000
+.label start=$4000
+.label irq1=$406f
+.label sfx1=$1aeb
+.label check_keyboard=$4042
+.label play_sfx=$4060 {
+}
+.label pra=$dc00
+.label ddrb=$dc03
+.label music_play=$1003

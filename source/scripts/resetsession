@@ -1,0 +1,8 @@
+# first reset VICE
+echo 'reset 0' | nc localhost 6510
+# insert binary into VICE
+echo 'cd /Users/richardlowenstein/Dropbox/Richard_Office/Gameprojekt/c64/twinky/bin'| nc localhost 6510
+echo 'l "twinky.prg" 0' | nc localhost 6510
+# run demo.prg
+echo 'g 4000' | nc localhost 6510
+#echo 'g c10c' | nc localhost 6510
