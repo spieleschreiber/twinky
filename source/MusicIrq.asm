@@ -51,6 +51,7 @@ check_keyboard:
 
 check_space:
 	nop
+	nop
 	lda #%01111111  // select row 8
 	
 	sta pra 
